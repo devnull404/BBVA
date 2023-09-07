@@ -1,0 +1,51 @@
+.blue-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100vw;
+  background-color: #00346f;
+  color: white;
+}
+
+* {
+  font-family: "BentonSans Regular";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.opt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  width: 18px;
+  height: 13px;
+}
+.opt-container .line-b {
+  width: 87%;
+}
+.opt-container .line-c {
+  width: 67%;
+}
+.opt-container div {
+  height: 3px;
+  background-color: white;
+}
+
+#bbva-bg {
+  background-image: url(/assets/bg.png);
+  background-repeat: no-repeat;
+  background-attachement: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+#acc, #cards {
+  border: 1px solid red;
+  width: 90vw;
+  height: 100px;
+}
+
+/*# sourceMappingURL=main.css.map */
